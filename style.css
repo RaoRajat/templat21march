@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Caramel&family=Catamaran:wght@300&family=Charm&family=Fredericka+the+Great&family=Inspiration&family=Kaushan+Script&family=Maven+Pro&family=Open+Sans:wght@300;400&family=Raleway:wght@700&family=Roboto:ital,wght@1,700&family=Satisfy&display=swap');
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(239, 239, 239);
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.container{
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.inner-box{
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.top-box{
+    width: 30%;
+    margin-bottom: 50px;
+    background-color:white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.img-box{
+    width: 150px;
+    margin: 0 auto;
+}
+.text-box{
+    width: 220px;
+    margin: 0 auto;
+    margin-top: 10px;  
+}
+.user-name{
+    text-align: center;
+    font-weight: 400;
+    font-size: 17px;
+    color: rgb(59, 210, 54);
+}
+.designer{
+    margin-top: 10px;
+    color: gray;
+    font-size: 12px;
+    text-align: center;
+}
+
+.text-box1{
+    width: 220px;
+    margin: 0 auto;
+    margin-top: 20%; 
+}
+.text{
+   font-size: 12px;
+    color: gray;
+    text-align: justify;
+    line-height: 1.2;
+}
+.img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.icon{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.icon1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+
+
+
+@media screen  and (min-width:768px) and (max-width:1000px){
+    .container{
+        width: 100%;
+    }
+    .top-box{
+        width: 47%;
+    }
+}
+
+
+@media screen  and (min-width:320px) and (max-width:767px){
+    .container{
+        width: 100%;
+    }
+    .top-box{
+        width: 100%;
+    }
+}
